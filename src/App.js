@@ -89,7 +89,7 @@ const experience = [
       'Ensembled predictions using a Dirichlet-weighted average of XGBoost, LightGBM, and CatBoost to improve generalization and minimize overfitting.',
       'Developed an interactive frontend with Streamlit to accept inputs, preprocess features, and return real-time predictions.',
     ],
-    link: 'https://github.com/darshikasaxena5',
+    link: 'https://github.com/darshikasaxena5/PodcastListeningTime_prediction',
   },
   {
     title: 'StudySmart',
@@ -100,7 +100,7 @@ const experience = [
       'Improved screen load times by 40% and navigation latency by 30% using Compose Destinations to streamline UI routing.',
       'Boosted code modularity and test coverage by 60% by integrating Dagger Hilt for dependency injection.',
     ],
-    link: 'https://github.com/darshikasaxena5',
+    link: 'https://github.com/darshikasaxena5/StudySync',
   },
   {
     title: 'AI-powered Coding Assistant Extension',
@@ -110,7 +110,7 @@ const experience = [
       'Boosted contextual continuity by 100% through persistent chat history across sessions.',
       'Streamlined user workflows by integrating Algzenith resources into a single UI panel.',
     ],
-    link: 'https://github.com/darshikasaxena5',
+    link: 'https://github.com/darshikasaxena5/ai_powered-chrome-extension',
   },
 ];
 
