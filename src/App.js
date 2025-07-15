@@ -46,77 +46,75 @@ const App = () => {
     { name: 'C++', icon: <SiCplusplus />, color: 'text-[#00599C]' },
     { name: 'C', icon: <span className="font-bold">C</span>, color: 'text-gray-400' },
     { name: 'JavaScript', icon: <DiJavascript1 />, color: 'text-[#F7DF1E]' },
-    { name: 'SQL/NoSQL', icon: <DiDatabase />, color: 'text-gray-400' },
+    { name: 'Kotlin', icon: <SiKotlin />, color: 'text-[#0095D5]' },
+    { name: 'Dart', icon: <SiDart />, color: 'text-[#0175C2]' },
+    { name: 'SQL', icon: <DiDatabase />, color: 'text-gray-400' },
     { name: 'HTML', icon: <DiHtml5 />, color: 'text-[#E34F26]' },
     { name: 'CSS', icon: <DiCss3 />, color: 'text-[#1572B6]' },
-    { name: 'Next.js', icon: <SiNextdotjs />, color: 'text-white' },
-    { name: 'React.js', icon: <DiReact />, color: 'text-[#61DAFB]' },
+    { name: 'Flutter', icon: <SiFlutter />, color: 'text-[#02569B]' },
+    { name: 'Node.js', icon: <DiNodejsSmall />, color: 'text-[#339933]' },
     { name: 'Express.js', icon: <SiExpress />, color: 'text-white' },
-    { name: 'Hugging Face', icon: <span className="font-bold">🤗</span>, color: 'text-[#FFD000]' },
+    { name: 'FastAPI', icon: <SiFastapi />, color: 'text-[#009688]' },
+    { name: 'React.js', icon: <DiReact />, color: 'text-[#61DAFB]' },
+    { name: 'TensorFlow', icon: <SiTensorflow />, color: 'text-[#FF6F00]' },
     { name: 'NumPy', icon: <SiNumpy />, color: 'text-[#4D77CF]' },
-    { name: 'Tableau', icon: <SiTableau />, color: 'text-[#E97627]' },
-    { name: 'PostgreSQL', icon: <DiPostgresql />, color: 'text-[#336791]' },
+    { name: 'Firebase', icon: <SiFirebase />, color: 'text-[#FFCA28]' },
     { name: 'MongoDB', icon: <DiMongodb />, color: 'text-[#47A248]' },
-    { name: 'SQLite', icon: <SiSqlite />, color: 'text-[#003B57]' },
     { name: 'Git', icon: <DiGit />, color: 'text-[#F05032]' },
-    { name: 'MySQL', icon: <DiMysql />, color: 'text-[#4479A1]' },
+    { name: 'Android Studio', icon: <SiAndroidstudio />, color: 'text-[#3DDC84]' },
+    { name: 'Postman', icon: <SiPostman />, color: 'text-[#FF6C37]' },
   ];
 
 const experience = [
   {
-    period: 'Nov 2024 - Feb 2025',
-    role: 'Full Stack Developer Intern',
-    company: 'Pratinik Infotech Pvt. Limited',
-    achievements: [
-      'Architected a CNN model for defect detection using VGG16 and ResNet50 for metal casting analysis.',
-      'Reduced model convergence time by 15% by integrating SGD and Adam optimizers, accelerating training cycles and boosting overall model performance.',
-      'Improved model accuracy by 20% via data augmentation techniques that addressed class imbalance.',
-    ],
-  },
-  {
-    period: 'Jan 2024 - June 2024',
-    role: 'Software Engineer Intern',
+    period: 'May 2025 - June 2025',
+    role: 'Android Developer Intern',
     company: 'Echoes',
     achievements: [
-      'Led web development of two Next.js applications which are Reverb (live music social-dating) and Cirkle (digital card POS dashboard) deployed to Vercel and Railway.',
-      'For Reverb, built anonymous chat, event-based matching, and push notifications using WebSockets and Firebase Cloud Messaging, supporting over 100+ user flows.',
-      'For Cirkle, implemented card issuance UI, balance lookup, top-up workflows, refunds, and a POS-style ordering interface with structured component architecture.',
-      'Tech stack: React.js, Next.js, TypeScript, Firebase Auth, Firestore, REST APIs, GitHub.',
+      'Led frontend development of two cross-platform apps — Reverb (social-dating) and Cirkle (digital card POS platform) using Flutter, deployed to iOS and Android.',
+      'For Reverb, implemented anonymous chat, event-based matching, and push notifications, enabling over 100+ user flows.',
+      'For Cirkle, developed features like card issuance, balance check, top-up, refunds, and POS-style ordering interface following structured app flow architecture.',
+      'Tech stack: Flutter, Firebase Auth, Firestore, MVVM Architecture, GitHub, Node.js, MongoDB.',
     ],
   },
 ];
 
   const projects = [
   {
-    title: 'Code Review Analyzer',
-    tech: 'Python | AST Parsing | Mermaid Diagrams | FastAPI | React.js',
+    title: 'Podcast Listening Time Prediction',
+    tech: 'XGBoost | Optuna | LightGBM | CatBoost | Streamlit',
     description: [
-      'Developed a full-stack platform to upload and analyze Python code via AST parsing, generating Mermaid diagrams and reducing manual code review time by 40%.',
-      'Integrated GPT-4 to enable natural language Q&A over parsed code, improving comprehension and debugging experience.',
-      'Engineered the backend with FastAPI and the frontend with React.js, delivering real-time feedback with <1s latency and improving user task completion speed by 30%.',
+      'Built a regression pipeline to predict podcast listening time using XGBoost, trained on 750K+ samples, evaluated via RMSE.',
+      'Boosted model accuracy by 12% using Optuna to auto-tune learning rate, depth, gamma, and regularization across 50 trials.',
+      'Ensembled predictions using a Dirichlet-weighted average of XGBoost, LightGBM, and CatBoost to improve generalization and minimize overfitting.',
+      'Developed an interactive frontend with Streamlit to accept inputs, preprocess features, and return real-time predictions.',
     ],
     link: 'https://github.com/darshikasaxena5',
   },
   {
-    title: 'Inquire PDF',
-    tech: 'React.js | FastAPI | Hugging Face | FAISS | SQLite',
+    title: 'StudySmart',
+    tech: 'Kotlin | Jetpack Compose | Room DB | Dagger Hilt',
     description: [
-      'Built a full-stack PDF Q&A platform with React.js, FastAPI, and a fine-tuned T5 LLM, delivering real-time (<1s) responses and handling 1,000+ concurrent queries via SQLite and Uvicorn.',
-      'Constructed semantic search using FAISS and sentence embeddings, achieving 35% faster retrieval across large documents and establishing real-time error tracking for robust performance.',
+      'Developed a Study Tracker Android app using Kotlin and Jetpack Compose, helping users manage subjects, set study goals, and track sessions — achieving 95% task completion rate during testing.',
+      'Implemented offline-first architecture with Room Database, ensuring 100% data persistence and reducing crash-related data loss by 90%.',
+      'Improved screen load times by 40% and navigation latency by 30% using Compose Destinations to streamline UI routing.',
+      'Boosted code modularity and test coverage by 60% by integrating Dagger Hilt for dependency injection.',
+    ],
+    link: 'https://github.com/darshikasaxena5',
+  },
+  {
+    title: 'AI-powered Coding Assistant Extension',
+    tech: 'JavaScript | Chrome Extensions | Gemini',
+    description: [
+      'Deployed Chrome Extension serving 10+ daily coding queries per user via Gemini API and dynamic prompt tuning.',
+      'Boosted contextual continuity by 100% through persistent chat history across sessions.',
+      'Streamlined user workflows by integrating Algzenith resources into a single UI panel.',
     ],
     link: 'https://github.com/darshikasaxena5',
   },
 ];
 
   const positions = [
-    {
-      period: 'Sep 2023 - Oct 2024',
-      role: 'Joint Secretary at Strokes Design Club IIIT Nagpur',
-      company: 'IIIT Nagpur',
-      achievements: [
-        "Spearheaded Nagpur's first women-centric hackathon with 100+ participants from 10+ institutes, handling outreach, logistics, and event operations.",
-      ],
-    },
     {
       period: 'Sep 2024 - Oct 2024',
       role: 'WomenInDev Hackathon Lead - Tantrafiesta',
@@ -209,7 +207,7 @@ const experience = [
         <Linkedin size={24} />
       </a>
       <a
-        href="mailto:darshika13517@gmail.com"
+        href="mailto:bt22csc088@iitn.ac.in"
         className="text-gray-400 hover:text-pink-500 transition-all duration-300 transform hover:scale-110"
         aria-label="Email"
       >
@@ -312,7 +310,7 @@ const experience = [
           className="text-gray-400 leading-relaxed mb-20 mt-148 opacity-0 
                    animate-[fade-in_0.8s_3s_forwards]"
         >
-          Bachelor of Technology - Computer Science (June 2022 - June 2026)
+          Bachelor of Technology - Computer Science (Nov 2022 - June 2026)
         </motion.p>
       </div>
   {/* Resume button */}
@@ -608,10 +606,10 @@ const experience = [
           <p>
             Contact:{" "}
             <a
-              href="mailto:darshika13517@gmail.com"
+              href="mailto:bt22csc088@iitn.ac.in"
               className="underline hover:text-pink-500 transition-colors duration-300"
             >
-              darshika13517@gmail.com
+              bt22csc088@iitn.ac.in
             </a>
           </p>
         </div>
