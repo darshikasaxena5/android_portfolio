@@ -315,8 +315,8 @@ const experience = [
       </div>
   {/* Resume button */}
   <motion.a
-    href="/Darshika_Saxena_Resume.pdf"
-    download="Darshika_Saxena_Resume.pdf"
+    href="/Darshikaa.pdf"
+    download="Darshikaa.pdf"
     className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 
                text-white rounded-lg shadow-lg hover:from-purple-600 hover:to-pink-600 
                transition-all duration-300 transform hover:scale-105 active:scale-95 
@@ -606,10 +606,10 @@ const experience = [
           <p>
             Contact:{" "}
             <a
-              href="mailto:bt22csc088@iitn.ac.in"
+              href="mailto:darshika13517@gmail.com"
               className="underline hover:text-pink-500 transition-colors duration-300"
             >
-              bt22csc088@iitn.ac.in
+              darshika13517@gmail.com
             </a>
           </p>
         </div>
